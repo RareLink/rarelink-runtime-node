@@ -3,7 +3,7 @@ authors = ['RareLink <https://github.com/RareLink>']
 edition = '2018'
 homepage = 'http://rarelink.network'
 license = 'Unlicense'
-name = 'rarelink-node'
+name = 'rarelink-runtime'
 repository = 'https://github.com/RareLink/rarelink-runtime-node'
 version = '0.0.1'
 
