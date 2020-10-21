@@ -1,17 +1,22 @@
-# Substrate Node Template
+# RareLink Node
 
-A new FRAME-based Substrate node, ready for hacking :rocket:
+This is the implementation of RareLink Node. It is still in development and not ready for use.
 
-## Local Development
+Once it connects as a parachain to Polkadot, it will act as a bridge between the Polkadot and the Ethereum networks.
 
-Follow these steps to prepare a local Substrate development environment :hammer_and_wrench:
+It consists of the following parts:(in development)
 
-### Setup
+* [pallet-commodities](https://docs.rs/pallet-commodities/1.0.0/pallet_commodities/index.html)
+* [chainlink-polkadot](https://github.com/smartcontractkit/chainlink-polkadot)
+* Bridge oracle implementation with **Off-Chain Workers** 
+
+
+## Setup
 
 Setup instructions can be found at the
 [Substrate Developer Hub](https://substrate.dev/docs/en/knowledgebase/getting-started).
 
-### Build
+## Build
 
 Once the development environment is set up, build the node template. This command will build the
 [Wasm](https://substrate.dev/docs/en/knowledgebase/advanced/executor#wasm-execution) and
